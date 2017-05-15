@@ -78,6 +78,8 @@
     ]
   },
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0"
   }
 }

@@ -1,31 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-let PLAYERS = [ {
-  name: "John Baldwin",
-  score: 31,
-  id: 1
-},
-{
-  name: "Nicki Baldwin",
-  score: 33,
-  id: 2
-},
-{
-  name: "Albus Dumbledore",
-  score: 43,
-  id: 3
-},
-{
-  name: "Bruce Wayne",
-  score: 25,
-  id: 4
-}
-];
+//components and models
+import Scoreboard from './containers/Scoreboard.jsx';
+import PLAYERS from './models/players.js'
 
-import Application from './components/app.jsx';
+//import Application from './components/app.jsx';
 
 ReactDOM.render(
-  <Application players={PLAYERS} />,
+  <Scoreboard />,
   document.getElementById('container')
 );
