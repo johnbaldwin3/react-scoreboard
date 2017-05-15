@@ -1,4 +1,4 @@
-import * PLayerActionTypes from '../actiontypes/player';
+import * PlayerActionTypes from '../actiontypes/player';
 
 export const addPlayer = name => {
   return {
